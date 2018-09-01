@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Info_Describe.xml
+   HHProject
+
+   Created by huang on 2018/4/11.
+   Copyright (c) 2018年 huang. All rights reserved.
+-->
+<plist version="1.0">
+    
+    <!-- HTTP  -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    
+    
+    <!-- 白名单 分享时会用到  -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <!--    微信    -->
+        <string>wechat</string>
+        <string>weixin</string>
+        
+        <!--   QQ    -->
+        <string>mqqapi</string>
+        <string>mqq</string>
+        <string>mqqOpensdkSSoLogin</string>
+        <string>mqqconnect</string>
+        <string>mqqopensdkdataline</string>
+        <string>mqqopensdkgrouptribeshare</string>
+        <string>mqqopensdkfriend</string>
+        <string>mqqopensdkapi</string>
+        <string>mqqopensdkapiV2</string>
+        <string>mqqopensdkapiV3</string>
+        <string>mqzoneopensdk</string>
+        <string>wtloginmqq</string>
+        <string>wtloginmqq2</string>
+        <string>mqqwpa</string>
+        <string>mqzone</string>
+        <string>mqzonev2</string>
+        <string>mqzoneshare</string>
+        <string>wtloginqzone</string>
+        <string>mqzonewx</string>
+        <string>mqzoneopensdkapiV2</string>
+        <string>mqzoneopensdkapi19</string>
+        <string>mqqopensdkapiV4</string>
+        <string>mqzoneopensdkapi</string>
+        <string>mqqbrowser</string>
+        <string>mttbrowser</string>
+        
+        <!--   支付宝    -->
+        <string>alipay</string>
+        <string>alipayshare</string>
+        
+        <!--   其他    -->
+        <string>http://sem.bosum.com.cn/boshang/</string>
+        <string>BoShang</string>
+    </array>
+    
+    
+    <!-- Location Description  -->
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>App需要您的同意,才能访问位置</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>App需要您的同意,才能访问位置</string>
+    <key>NSLocationWhenInUseUsageDescription </key>
+    <string>App需要您的同意,才能访问位置</string>
+    
+    <!-- Photo Description  -->
+    <key>NSCameraUsageDescription</key>
+    <string>App需要您的同意,才能访问相册</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>App需要您的同意,才能访问相机</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>App需要您的同意,才能访问相机</string>
+    
+    
+    <!-- Contacts Description  -->
+    <key>NSContactsUsageDescription</key>
+    <string>App需要您的同意,才能访问通信录</string>
+
+    <!-- Music Description  -->
+    <key>NSAppleMusicUsageDescription</key>
+    <string>App需要您的同意,才能访问媒体资料库</string>
+    
+    <!-- Bluetooth Description  -->
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>App需要您的同意,才能访问蓝牙</string>
+    
+     <!-- Calendars Description  -->
+    <key>NSCalendarsUsageDescription</key>
+    <string>App需要您的同意,才能访问日历</string>
+    
+    <!-- Motion Description  -->
+    <string>App需要您的同意,才能访问运动与健身</string>
+    <!-- Health Description  -->
+    <key>NSMotionUsageDescription</key>
+    <key>NSHealthShareUsageDescription</key>
+    <string>App需要您的同意,才能访问健康分享</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>App需要您的同意,才能访问健康更新 </string>
+
+    <!-- Microphone Description  -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>App需要您的同意,才能访问麦克风</string>
+    
+    
+</plist>

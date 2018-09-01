@@ -1,0 +1,71 @@
+platform :ios, '8.0'
+
+# 去除Cocoadpods的警告
+inhibit_all_warnings!
+
+# Import CocoaPods sources
+source 'https://github.com/CocoaPods/Specs.git'
+
+target ‘HHProject’ do
+
+# network
+pod 'AFNetworking'
+
+# sql
+pod 'FMDB'
+
+# aop
+pod 'Aspects'
+
+# UI
+pod 'YYKit'
+pod 'Masonry'
+pod 'IQKeyboardManager'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'FDFullscreenPopGesture'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'MMPopupView'
+pod 'LYEmptyView'
+pod 'LGAlertView'
+
+# ReactiveCocoa #
+pod 'ReactiveCocoa', '~> 2.5'
+
+
+# Share SDK 按需提取 #
+# https://github.com/MobClub/ShareSDK-for-iOS #
+pod 'mob_sharesdk'  #main module(necessary)#
+pod 'mob_sharesdk/ShareSDKUI'   #UI module#
+pod 'mob_sharesdk/ShareSDKPlatforms/QQ'
+pod 'mob_sharesdk/ShareSDKPlatforms/SinaWeibo'
+#pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'   #（微信sdk不带支付的命令）#
+pod 'mob_sharesdk/ShareSDKPlatforms/WeChatFull' #（微信sdk带支付的命令，和上面不带支付的不能共存，只能选择一个#
+
+
+
+
+# 友盟集成地址 按需提取 #
+# http://dev.umeng.com/sdk_integate/ios-integrate-guide/cocoapods 集成
+#  Push SDK
+pod 'UMCCommon'
+pod 'UMCSecurityPlugins'
+pod 'UMCPush'
+pod 'UMCCommonLog'
+
+
+# U-Share SDK UI模块（分享面板，建议添加）
+pod 'UMCShare/UI'
+# 集成微信(精简版0.2M)
+pod 'UMCShare/Social/ReducedWeChat'
+# 集成QQ/QZone/TIM(精简版0.5M)
+pod 'UMCShare/Social/ReducedQQ'
+# 集成新浪微博(精简版1M)
+pod 'UMCShare/Social/ReducedSina'
+# 集成支付宝
+pod 'UMCShare/Social/AlipayShare'
+# 友盟集成 #
+
+
+end

@@ -1,0 +1,142 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - FDFullscreenPopGesture (1.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - IQKeyboardManager (3.3.7)
+  - LGAlertView (2.4.0)
+  - LYEmptyView (1.0.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - MMPopupView (1.7.2):
+    - Masonry
+  - mob_sharesdk (4.1.2):
+    - mob_sharesdk/ShareSDK (= 4.1.2)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.1.2):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.1.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.1.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChatFull (4.1.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.1.2):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.1.6)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - UITableView+FDTemplateLayoutCell (1.6)
+  - UMCCommon (1.5.0)
+  - UMCCommonLog (1.0.0)
+  - UMCPush (3.2.0):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.0):
+    - UMCCommon
+  - UMCShare/Social/AlipayShare (6.9.0):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedQQ (6.9.0):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.0):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.0):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/UI (6.9.0):
+    - UMCCommon
+    - UMCShare/Core
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Aspects
+  - FDFullscreenPopGesture
+  - FMDB
+  - IQKeyboardManager
+  - LGAlertView
+  - LYEmptyView
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - MMPopupView
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/WeChatFull
+  - mob_sharesdk/ShareSDKUI
+  - ReactiveCocoa (~> 2.5)
+  - SDWebImage
+  - UITableView+FDTemplateLayoutCell
+  - UMCCommon
+  - UMCCommonLog
+  - UMCPush
+  - UMCSecurityPlugins
+  - UMCShare/Social/AlipayShare
+  - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/ReducedSina
+  - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI
+  - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  LGAlertView: 2f5e83dd5cc2537de57d98727650609e86197d1a
+  LYEmptyView: 3a7d1604cff1791d207a498a42101f31e9b12b8c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
+  mob_sharesdk: e859de6ace7542f3395ce055682f7cd40efdfaa1
+  MOBFoundation: a87c5f11fb87f873337189c3ec0add4d3ec6221a
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  UMCCommon: 82d21f4bb9532a5472cc533bbd8ed48aff376a14
+  UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
+  UMCPush: eabf1963436e16f0578a12d3d8e203f45170d50c
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMCShare: 0c406a22c874fe6c9c97784a71db349e7fcea0eb
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 6ed365454890199503377dfc945ab8d4d0292648
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+ PayMent.xml
+ HHProject
+ 
+ Created by huang on 2018/4/11.
+ Copyright (c) 2018年 huang. All rights reserved.
+ -->
+
+<
+    支付宝  https://juejin.im/post/5a41c04c6fb9a044fc44fd23 文档中心 https://docs.open.alipay.com/54/104509
+>
+
+<
+    微信支付 https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_5
+>
+
+
+<
+    第三方库 集成了支付宝支付和微信支付
+    代码地址: https://github.com/CoderZhuXH/XHPayKit
+>
+

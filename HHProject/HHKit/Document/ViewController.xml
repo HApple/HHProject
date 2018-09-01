@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ViewController 代码结构简单规范 -->
+
+<
+    @property(nonatomic,strong)UIButton *confirmButton
+    ...
+    
+    #pragma mark - life cycle
+    - (void)dealloc{
+    
+    }
+    
+    - (void)viewWillApper{
+        [super viewWillApper];
+    }
+    
+    - (void)viewDidLoad{
+    
+        [super viewDidLoad];
+        
+        [self setupUI];
+        [self addConstraints];
+    }
+    
+
+    ...
+    
+    #pragma mark - UITableViewDelegate
+        methods
+        
+    #pragma mark - CustomDelegate
+        methods
+    
+    #pragma mark - event response
+    - (void)didTappedConfirmButton:(UIButton *)confirmButton
+    
+    <!-- ViewController基本上是大部分业务的载体，本身代码已经相当复杂，所以跟业务关联不大的东西能不放在ViewController里面就不要放。
+    另外一点，这个private method的功能这时候只是你用得到，但是将来说不定别的地方也会用到，一开始就独立出来，有利于将来的代码复用。-->
+    #pragma mark - private methods
+        methods
+    
+    #pragma mark - lazy views
+    - (void)setupUI{
+        [self.view addSubview:self.confirmButton];
+        [self.view addSubview:self.tableView];
+    }
+    - (void)addConstraints{
+    
+    }
+    
+    #pragma mark - getters and setters
+    - (UIButton *)confirmButton{
+        if(_confirmButton){return;}
+        _confirmButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        return _confirmButton;
+    }
+    - (UITableView*)tableView  ≥¬ µ
+    
+   
+
+>

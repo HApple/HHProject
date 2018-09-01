@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "网络数据"; ObjectID = "7Fm-2M-w4P"; */
+"7Fm-2M-w4P.text" = "网络数据";
+
+/* Class = "UILabel"; text = "缓存关闭"; ObjectID = "Op8-lY-ONS"; */
+"Op8-lY-ONS.text" = "缓存关闭";
+
+/* Class = "UILabel"; text = "缓存数据"; ObjectID = "d5e-mD-0WW"; */
+"d5e-mD-0WW.text" = "缓存数据";
+
+/* Class = "UIButton"; normalTitle = "开始下载"; ObjectID = "zNx-E7-saP"; */
+"zNx-E7-saP.normalTitle" = "开始下载";
