@@ -85,6 +85,7 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
+  install_resource "${PODS_ROOT}/JKWKWebViewHandler/JKWKWebViewHandler/Resources/JKEventHandler.js"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle"
   install_resource "${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
@@ -94,6 +95,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
+  install_resource "${PODS_ROOT}/JKWKWebViewHandler/JKWKWebViewHandler/Resources/JKEventHandler.js"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle"
   install_resource "${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"

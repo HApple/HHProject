@@ -45,6 +45,8 @@
 }
 
 //消息转发三部曲
+
+#pragma mark - 1
 + (BOOL)resolveInstanceMethod:(SEL)sel{
 
     if (sel == @selector(eat:)) {
@@ -63,7 +65,7 @@ void eat(id self,SEL _cmd,NSString *food){
 }
 
 
-
+#pragma mark - 2
 -(id)forwardingTargetForSelector:(SEL)aSelector{
     
     if (aSelector == @selector(eat:) && [self.animal respondsToSelector:@selector(eat:)]) {
@@ -75,7 +77,7 @@ void eat(id self,SEL _cmd,NSString *food){
 
 
 
-
+#pragma mark - 3
 -(void)forwardInvocation:(NSInvocation *)anInvocation{
     if ([self.animal respondsToSelector:[anInvocation selector]]) {
         [anInvocation invokeWithTarget:self.animal];

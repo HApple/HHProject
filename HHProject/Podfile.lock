@@ -20,6 +20,7 @@ PODS:
     - FMDB/standard (= 2.7.2)
   - FMDB/standard (2.7.2)
   - IQKeyboardManager (3.3.7)
+  - JKWKWebViewHandler (0.2.4)
   - LGAlertView (2.4.0)
   - LYEmptyView (1.0.3)
   - Masonry (1.1.0)
@@ -88,6 +89,7 @@ DEPENDENCIES:
   - FDFullscreenPopGesture
   - FMDB
   - IQKeyboardManager
+  - JKWKWebViewHandler
   - LGAlertView
   - LYEmptyView
   - Masonry
@@ -119,6 +121,7 @@ SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JKWKWebViewHandler: e8c1ede3c6fc3bc6f7dc09a04c1950ce60a13cfb
   LGAlertView: 2f5e83dd5cc2537de57d98727650609e86197d1a
   LYEmptyView: 3a7d1604cff1791d207a498a42101f31e9b12b8c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -137,6 +140,6 @@ SPEC CHECKSUMS:
   UMCShare: 0c406a22c874fe6c9c97784a71db349e7fcea0eb
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 6ed365454890199503377dfc945ab8d4d0292648
+PODFILE CHECKSUM: 6476ccd727f083550cb664d2f30c9ace72e42bcd
 
 COCOAPODS: 1.4.0

@@ -72,6 +72,14 @@
 		63D39A8A20C0D6A00074AB98 /* CLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D39A8920C0D6A00074AB98 /* CLTableViewCell.m */; };
 		63D39A8D20C0D9270074AB98 /* CLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D39A8C20C0D9270074AB98 /* CLView.m */; };
 		63D39A9020C0EEF90074AB98 /* CircleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D39A8F20C0EEF90074AB98 /* CircleListViewController.m */; };
+		63D823EF214107180062E07C /* JKEventHandler+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D823EB214107170062E07C /* JKEventHandler+Demo.m */; };
+		63D823F0214107180062E07C /* JKWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D823ED214107180062E07C /* JKWKWebViewController.m */; };
+		63D823F3214107280062E07C /* vconsole.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 63D823F1214107280062E07C /* vconsole.min.js */; };
+		63D823F4214107280062E07C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 63D823F2214107280062E07C /* test.html */; };
+		63D823F72141092B0062E07C /* JKTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D823F52141092A0062E07C /* JKTestVC.m */; };
+		63D823FB214225C60062E07C /* HHTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D823FA214225C60062E07C /* HHTAViewController.m */; };
+		63D823FE214225D50062E07C /* HHTAToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D823FD214225D50062E07C /* HHTAToViewController.m */; };
+		63D82401214226EE0062E07C /* HHTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D82400214226EE0062E07C /* HHTransitionAnimation.m */; };
 		63D9F2052139542000042173 /* UIViewController+LeftBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F2042139542000042173 /* UIViewController+LeftBarButtonItem.m */; };
 		63D9F208213954AC00042173 /* HHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F207213954AC00042173 /* HHNavigationViewController.m */; };
 		63D9F20E213955A500042173 /* HHWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F20D213955A500042173 /* HHWKWebViewController.m */; };
@@ -88,6 +96,10 @@
 		63D9F22421395BEF00042173 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D9F22321395BEF00042173 /* libsqlite3.0.tbd */; };
 		63D9F228213966EC00042173 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63D9F226213966EC00042173 /* AlipaySDK.bundle */; };
 		63D9F229213966EC00042173 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D9F227213966EC00042173 /* AlipaySDK.framework */; };
+		63D9F256213F84ED00042173 /* HHBookProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F255213F84ED00042173 /* HHBookProvider.m */; };
+		63D9F259213F855800042173 /* HHClothesProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F258213F855800042173 /* HHClothesProvider.m */; };
+		63D9F25C213F873400042173 /* HHDealerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F25B213F873400042173 /* HHDealerProxy.m */; };
+		63D9F25F213FA54900042173 /* PorxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F25E213FA54900042173 /* PorxyViewController.m */; };
 		63E5A07E211D77150064B016 /* CategoryExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5A07D211D77150064B016 /* CategoryExtensionViewController.m */; };
 		63E5A081211D77730064B016 /* NSString+HHCategory1.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5A080211D77730064B016 /* NSString+HHCategory1.m */; };
 		63E5A084211D77830064B016 /* NSString+HHCategory2.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5A083211D77830064B016 /* NSString+HHCategory2.m */; };
@@ -271,6 +283,20 @@
 		63D39A8C20C0D9270074AB98 /* CLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLView.m; sourceTree = "<group>"; };
 		63D39A8E20C0EEF90074AB98 /* CircleListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleListViewController.h; sourceTree = "<group>"; };
 		63D39A8F20C0EEF90074AB98 /* CircleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleListViewController.m; sourceTree = "<group>"; };
+		63D823EB214107170062E07C /* JKEventHandler+Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JKEventHandler+Demo.m"; sourceTree = "<group>"; };
+		63D823EC214107180062E07C /* JKWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKWKWebViewController.h; sourceTree = "<group>"; };
+		63D823ED214107180062E07C /* JKWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKWKWebViewController.m; sourceTree = "<group>"; };
+		63D823EE214107180062E07C /* JKEventHandler+Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JKEventHandler+Demo.h"; sourceTree = "<group>"; };
+		63D823F1214107280062E07C /* vconsole.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vconsole.min.js; sourceTree = "<group>"; };
+		63D823F2214107280062E07C /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		63D823F52141092A0062E07C /* JKTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTestVC.m; sourceTree = "<group>"; };
+		63D823F62141092A0062E07C /* JKTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTestVC.h; sourceTree = "<group>"; };
+		63D823F9214225C60062E07C /* HHTAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTAViewController.h; sourceTree = "<group>"; };
+		63D823FA214225C60062E07C /* HHTAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTAViewController.m; sourceTree = "<group>"; };
+		63D823FC214225D50062E07C /* HHTAToViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTAToViewController.h; sourceTree = "<group>"; };
+		63D823FD214225D50062E07C /* HHTAToViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTAToViewController.m; sourceTree = "<group>"; };
+		63D823FF214226EE0062E07C /* HHTransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTransitionAnimation.h; sourceTree = "<group>"; };
+		63D82400214226EE0062E07C /* HHTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTransitionAnimation.m; sourceTree = "<group>"; };
 		63D9F2032139541F00042173 /* UIViewController+LeftBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LeftBarButtonItem.h"; sourceTree = "<group>"; };
 		63D9F2042139542000042173 /* UIViewController+LeftBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LeftBarButtonItem.m"; sourceTree = "<group>"; };
 		63D9F206213954AC00042173 /* HHNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHNavigationViewController.h; sourceTree = "<group>"; };
@@ -290,6 +316,14 @@
 		63D9F22321395BEF00042173 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		63D9F226213966EC00042173 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		63D9F227213966EC00042173 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		63D9F254213F84ED00042173 /* HHBookProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHBookProvider.h; sourceTree = "<group>"; };
+		63D9F255213F84ED00042173 /* HHBookProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHBookProvider.m; sourceTree = "<group>"; };
+		63D9F257213F855800042173 /* HHClothesProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHClothesProvider.h; sourceTree = "<group>"; };
+		63D9F258213F855800042173 /* HHClothesProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHClothesProvider.m; sourceTree = "<group>"; };
+		63D9F25A213F873400042173 /* HHDealerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHDealerProxy.h; sourceTree = "<group>"; };
+		63D9F25B213F873400042173 /* HHDealerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDealerProxy.m; sourceTree = "<group>"; };
+		63D9F25D213FA54900042173 /* PorxyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PorxyViewController.h; sourceTree = "<group>"; };
+		63D9F25E213FA54900042173 /* PorxyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PorxyViewController.m; sourceTree = "<group>"; };
 		63E5A07C211D77150064B016 /* CategoryExtensionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryExtensionViewController.h; sourceTree = "<group>"; };
 		63E5A07D211D77150064B016 /* CategoryExtensionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryExtensionViewController.m; sourceTree = "<group>"; };
 		63E5A07F211D77730064B016 /* NSString+HHCategory1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HHCategory1.h"; sourceTree = "<group>"; };
@@ -816,6 +850,34 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		63D823EA214107020062E07C /* JKWKWebViewHandler */ = {
+			isa = PBXGroup;
+			children = (
+				63D823EE214107180062E07C /* JKEventHandler+Demo.h */,
+				63D823EB214107170062E07C /* JKEventHandler+Demo.m */,
+				63D823EC214107180062E07C /* JKWKWebViewController.h */,
+				63D823ED214107180062E07C /* JKWKWebViewController.m */,
+				63D823F62141092A0062E07C /* JKTestVC.h */,
+				63D823F52141092A0062E07C /* JKTestVC.m */,
+				63D823F2214107280062E07C /* test.html */,
+				63D823F1214107280062E07C /* vconsole.min.js */,
+			);
+			path = JKWKWebViewHandler;
+			sourceTree = "<group>";
+		};
+		63D823F8214223AB0062E07C /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				63D823F9214225C60062E07C /* HHTAViewController.h */,
+				63D823FA214225C60062E07C /* HHTAViewController.m */,
+				63D823FC214225D50062E07C /* HHTAToViewController.h */,
+				63D823FD214225D50062E07C /* HHTAToViewController.m */,
+				63D823FF214226EE0062E07C /* HHTransitionAnimation.h */,
+				63D82400214226EE0062E07C /* HHTransitionAnimation.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
 		63D9F202213953E700042173 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -836,6 +898,21 @@
 				63D9F227213966EC00042173 /* AlipaySDK.framework */,
 			);
 			path = AlipaySDK;
+			sourceTree = "<group>";
+		};
+		63D9F253213F84B100042173 /* NSProxy */ = {
+			isa = PBXGroup;
+			children = (
+				63D9F254213F84ED00042173 /* HHBookProvider.h */,
+				63D9F255213F84ED00042173 /* HHBookProvider.m */,
+				63D9F257213F855800042173 /* HHClothesProvider.h */,
+				63D9F258213F855800042173 /* HHClothesProvider.m */,
+				63D9F25A213F873400042173 /* HHDealerProxy.h */,
+				63D9F25B213F873400042173 /* HHDealerProxy.m */,
+				63D9F25D213FA54900042173 /* PorxyViewController.h */,
+				63D9F25E213FA54900042173 /* PorxyViewController.m */,
+			);
+			path = NSProxy;
 			sourceTree = "<group>";
 		};
 		63E5A07B211D76DF0064B016 /* Category+Extension */ = {
@@ -868,9 +945,12 @@
 				656307A31ED6C41B000CB387 /* AppDelegate.m */,
 				659455BD1EE7A52D00C94BF5 /* HHRootViewController.h */,
 				659455BE1EE7A52D00C94BF5 /* HHRootViewController.m */,
+				63D823F8214223AB0062E07C /* Transition */,
+				63D823EA214107020062E07C /* JKWKWebViewHandler */,
 				63E5A07B211D76DF0064B016 /* Category+Extension */,
 				63755F742111871800458B35 /* KVO */,
 				63755F5F211154B500458B35 /* GCD */,
+				63D9F253213F84B100042173 /* NSProxy */,
 				63755F5E211154AA00458B35 /* RunLoop */,
 				63755F5D2111549100458B35 /* RunTime */,
 				659455C01EE7A55B00C94BF5 /* TCP */,
@@ -1101,7 +1181,9 @@
 			files = (
 				63D9F228213966EC00042173 /* AlipaySDK.bundle in Resources */,
 				65B9CFF91EEE67BA001E4778 /* LaunchScreen.storyboard in Resources */,
+				63D823F4214107280062E07C /* test.html in Resources */,
 				656307B01ED6C41B000CB387 /* Assets.xcassets in Resources */,
+				63D823F3214107280062E07C /* vconsole.min.js in Resources */,
 				63D39A4C20BD51120074AB98 /* flags.plist in Resources */,
 				6308CEA1207E0F45000FE74D /* PayMent.xml in Resources */,
 				656307BE1ED6C947000CB387 /* Default-568h@2x.png in Resources */,
@@ -1151,6 +1233,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HHProject/Pods-HHProject-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/JKWKWebViewHandler/JKWKWebViewHandler/Resources/JKEventHandler.js",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
 				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
@@ -1161,6 +1244,7 @@
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JKEventHandler.js",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
@@ -1215,6 +1299,7 @@
 				6308CE2E207B6B06000FE74D /* NSString+Encryption.m in Sources */,
 				6308CE6F207C98CD000FE74D /* UIViewController+HHUtilities.m in Sources */,
 				63D39A6A20BFDAFD0074AB98 /* HHCollectionViewCell.m in Sources */,
+				63D9F256213F84ED00042173 /* HHBookProvider.m in Sources */,
 				659455791EE5405400C94BF5 /* NSString+HHRegular.m in Sources */,
 				6308CE6C207C69DD000FE74D /* KeyChainStore.m in Sources */,
 				6308CE6B207C69DD000FE74D /* UUID.m in Sources */,
@@ -1231,12 +1316,14 @@
 				63D39A7220BFE3E30074AB98 /* HHViewModel.m in Sources */,
 				6308CE61207C629A000FE74D /* LoginManager.m in Sources */,
 				6308CE36207B6C0F000FE74D /* EncryptionsExample.m in Sources */,
+				63D823F0214107180062E07C /* JKWKWebViewController.m in Sources */,
 				6308CE96207DDC36000FE74D /* AppDelegate+Location.m in Sources */,
 				63D9F20E213955A500042173 /* HHWKWebViewController.m in Sources */,
 				6389C8CC2139520E00CDCDE5 /* HHUnionPay.m in Sources */,
 				6308CE64207C629A000FE74D /* SAMKeychainQuery.m in Sources */,
 				6594562C1EE92C0500C94BF5 /* UIScreen+HHUtilities.m in Sources */,
 				659455B91EE79DA100C94BF5 /* HHNetworkHelper.m in Sources */,
+				63D823FB214225C60062E07C /* HHTAViewController.m in Sources */,
 				6308CE9F207DEFDB000FE74D /* AppDelegate+UMPush.m in Sources */,
 				659455BC1EE79DBE00C94BF5 /* HHNetworkCache.m in Sources */,
 				6308CE40207C4FCC000FE74D /* UILabel+HHUtilities.m in Sources */,
@@ -1245,11 +1332,13 @@
 				659455BF1EE7A52D00C94BF5 /* HHRootViewController.m in Sources */,
 				6335D52C2109570800A6B0D4 /* BlockExampleViewController.m in Sources */,
 				6308CEA8207EF1C8000FE74D /* ViewController1.m in Sources */,
+				63D9F25F213FA54900042173 /* PorxyViewController.m in Sources */,
 				63D39A3720BBD2E00074AB98 /* UITextField+TextSeparater.m in Sources */,
 				656307AF1ED6C41B000CB387 /* AppDelegate.m in Sources */,
 				63D39A8A20C0D6A00074AB98 /* CLTableViewCell.m in Sources */,
 				63D39A4A20BD407A0074AB98 /* RACSecondViewController.m in Sources */,
 				659455501EE4F5D500C94BF5 /* UIColor+HHHex.m in Sources */,
+				63D823FE214225D50062E07C /* HHTAToViewController.m in Sources */,
 				63D9F2052139542000042173 /* UIViewController+LeftBarButtonItem.m in Sources */,
 				63E5A07E211D77150064B016 /* CategoryExtensionViewController.m in Sources */,
 				63D39A8420C002950074AB98 /* CLHeaderView.m in Sources */,
@@ -1266,11 +1355,16 @@
 				6308CE75207D95E5000FE74D /* FYResponseData.m in Sources */,
 				6389C8C92139520E00CDCDE5 /* HHALiPay.m in Sources */,
 				6594555C1EE5174200C94BF5 /* NSDate+HHUtilities.m in Sources */,
+				63D82401214226EE0062E07C /* HHTransitionAnimation.m in Sources */,
 				63755F6E21115B2000458B35 /* Cat.m in Sources */,
+				63D9F259213F855800042173 /* HHClothesProvider.m in Sources */,
 				63D39A8D20C0D9270074AB98 /* CLView.m in Sources */,
+				63D823EF214107180062E07C /* JKEventHandler+Demo.m in Sources */,
 				63D39A7E20BFEE0E0074AB98 /* CLViewModel.m in Sources */,
 				63D39A5B20BFA8700074AB98 /* HHViewController.m in Sources */,
+				63D823F72141092B0062E07C /* JKTestVC.m in Sources */,
 				6308CE62207C629A000FE74D /* MyInfoModel.m in Sources */,
+				63D9F25C213F873400042173 /* HHDealerProxy.m in Sources */,
 				63D39A8720C009890074AB98 /* CLSectionHeaderView.m in Sources */,
 				6308CE2B207B6B06000FE74D /* Base64.m in Sources */,
 				63D9F208213954AC00042173 /* HHNavigationViewController.m in Sources */,

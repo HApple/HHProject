@@ -30,6 +30,7 @@
     [self addCell:@"RunTime Example" class:@"RunTimeViewController"];
     [self addCell:@"RunLoop Example" class:@"RunLoopViewController"];
     [self addCell:@"GCD Example" class:@"GCDViewController"];
+    [self addCell:@"NSPorxy Example" class:@"PorxyViewController"];
     [self addCell:@"KVO Example" class:@"KVOViewController"];
     [self addCell:@"Category Extension Example" class:@"CategoryExtensionViewController"];
     [self.tableView reloadData];
