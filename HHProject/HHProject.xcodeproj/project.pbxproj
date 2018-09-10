@@ -80,6 +80,14 @@
 		63D823FB214225C60062E07C /* HHTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D823FA214225C60062E07C /* HHTAViewController.m */; };
 		63D823FE214225D50062E07C /* HHTAToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D823FD214225D50062E07C /* HHTAToViewController.m */; };
 		63D82401214226EE0062E07C /* HHTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D82400214226EE0062E07C /* HHTransitionAnimation.m */; };
+		63D8240C214604190062E07C /* SingletonExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8240B214604190062E07C /* SingletonExample.m */; };
+		63D8240F2146061E0062E07C /* OberverExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8240E2146061E0062E07C /* OberverExample.m */; };
+		63D82412214613A30062E07C /* DesignPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D82411214613A30062E07C /* DesignPatternViewController.m */; };
+		63D82415214614760062E07C /* DecoratorExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D82414214614760062E07C /* DecoratorExample.m */; };
+		63D8241821463E690062E07C /* ZRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8241721463E690062E07C /* ZRPerson.m */; };
+		63D8241B21464CE90062E07C /* AdapterExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8241A21464CE90062E07C /* AdapterExample.m */; };
+		63D8241F21464DA70062E07C /* MementoExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8241E21464DA70062E07C /* MementoExample.m */; };
+		63D82422214668320062E07C /* FactoryExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D82421214668320062E07C /* FactoryExample.m */; };
 		63D9F2052139542000042173 /* UIViewController+LeftBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F2042139542000042173 /* UIViewController+LeftBarButtonItem.m */; };
 		63D9F208213954AC00042173 /* HHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F207213954AC00042173 /* HHNavigationViewController.m */; };
 		63D9F20E213955A500042173 /* HHWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F20D213955A500042173 /* HHWKWebViewController.m */; };
@@ -297,6 +305,22 @@
 		63D823FD214225D50062E07C /* HHTAToViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTAToViewController.m; sourceTree = "<group>"; };
 		63D823FF214226EE0062E07C /* HHTransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTransitionAnimation.h; sourceTree = "<group>"; };
 		63D82400214226EE0062E07C /* HHTransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTransitionAnimation.m; sourceTree = "<group>"; };
+		63D8240A214604190062E07C /* SingletonExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonExample.h; sourceTree = "<group>"; };
+		63D8240B214604190062E07C /* SingletonExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonExample.m; sourceTree = "<group>"; };
+		63D8240D2146061E0062E07C /* OberverExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OberverExample.h; sourceTree = "<group>"; };
+		63D8240E2146061E0062E07C /* OberverExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OberverExample.m; sourceTree = "<group>"; };
+		63D82410214613A30062E07C /* DesignPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPatternViewController.h; sourceTree = "<group>"; };
+		63D82411214613A30062E07C /* DesignPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternViewController.m; sourceTree = "<group>"; };
+		63D82413214614760062E07C /* DecoratorExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorExample.h; sourceTree = "<group>"; };
+		63D82414214614760062E07C /* DecoratorExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorExample.m; sourceTree = "<group>"; };
+		63D8241621463E690062E07C /* ZRPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRPerson.h; sourceTree = "<group>"; };
+		63D8241721463E690062E07C /* ZRPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRPerson.m; sourceTree = "<group>"; };
+		63D8241921464CE90062E07C /* AdapterExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterExample.h; sourceTree = "<group>"; };
+		63D8241A21464CE90062E07C /* AdapterExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterExample.m; sourceTree = "<group>"; };
+		63D8241D21464DA70062E07C /* MementoExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoExample.h; sourceTree = "<group>"; };
+		63D8241E21464DA70062E07C /* MementoExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoExample.m; sourceTree = "<group>"; };
+		63D82420214668320062E07C /* FactoryExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryExample.h; sourceTree = "<group>"; };
+		63D82421214668320062E07C /* FactoryExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryExample.m; sourceTree = "<group>"; };
 		63D9F2032139541F00042173 /* UIViewController+LeftBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LeftBarButtonItem.h"; sourceTree = "<group>"; };
 		63D9F2042139542000042173 /* UIViewController+LeftBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LeftBarButtonItem.m"; sourceTree = "<group>"; };
 		63D9F206213954AC00042173 /* HHNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHNavigationViewController.h; sourceTree = "<group>"; };
@@ -878,6 +902,93 @@
 			path = Transition;
 			sourceTree = "<group>";
 		};
+		63D824022145FAEA0062E07C /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				63D82410214613A30062E07C /* DesignPatternViewController.h */,
+				63D82411214613A30062E07C /* DesignPatternViewController.m */,
+				63D8241C21464D8A0062E07C /* 备忘录模式(Memento) */,
+				63D82405214601850062E07C /* 单例(Singleton) */,
+				63D82409214602EA0062E07C /* 观察者模式(Observer) */,
+				63D82408214602360062E07C /* 装饰模式(Decorator) */,
+				63D824072146019E0062E07C /* 生成器(Builder) */,
+				63D824062146018B0062E07C /* 原型(Prototype) */,
+				63D824042146017F0062E07C /* 适配器(Adapter) */,
+				63D824032146016F0062E07C /* 工厂模式(Factory) */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		63D824032146016F0062E07C /* 工厂模式(Factory) */ = {
+			isa = PBXGroup;
+			children = (
+				63D82420214668320062E07C /* FactoryExample.h */,
+				63D82421214668320062E07C /* FactoryExample.m */,
+			);
+			path = "工厂模式(Factory)";
+			sourceTree = "<group>";
+		};
+		63D824042146017F0062E07C /* 适配器(Adapter) */ = {
+			isa = PBXGroup;
+			children = (
+				63D8241921464CE90062E07C /* AdapterExample.h */,
+				63D8241A21464CE90062E07C /* AdapterExample.m */,
+			);
+			path = "适配器(Adapter)";
+			sourceTree = "<group>";
+		};
+		63D82405214601850062E07C /* 单例(Singleton) */ = {
+			isa = PBXGroup;
+			children = (
+				63D8240A214604190062E07C /* SingletonExample.h */,
+				63D8240B214604190062E07C /* SingletonExample.m */,
+			);
+			path = "单例(Singleton)";
+			sourceTree = "<group>";
+		};
+		63D824062146018B0062E07C /* 原型(Prototype) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "原型(Prototype)";
+			sourceTree = "<group>";
+		};
+		63D824072146019E0062E07C /* 生成器(Builder) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "生成器(Builder)";
+			sourceTree = "<group>";
+		};
+		63D82408214602360062E07C /* 装饰模式(Decorator) */ = {
+			isa = PBXGroup;
+			children = (
+				63D82413214614760062E07C /* DecoratorExample.h */,
+				63D82414214614760062E07C /* DecoratorExample.m */,
+				63D8241621463E690062E07C /* ZRPerson.h */,
+				63D8241721463E690062E07C /* ZRPerson.m */,
+			);
+			path = "装饰模式(Decorator)";
+			sourceTree = "<group>";
+		};
+		63D82409214602EA0062E07C /* 观察者模式(Observer) */ = {
+			isa = PBXGroup;
+			children = (
+				63D8240D2146061E0062E07C /* OberverExample.h */,
+				63D8240E2146061E0062E07C /* OberverExample.m */,
+			);
+			path = "观察者模式(Observer)";
+			sourceTree = "<group>";
+		};
+		63D8241C21464D8A0062E07C /* 备忘录模式(Memento) */ = {
+			isa = PBXGroup;
+			children = (
+				63D8241D21464DA70062E07C /* MementoExample.h */,
+				63D8241E21464DA70062E07C /* MementoExample.m */,
+			);
+			path = "备忘录模式(Memento)";
+			sourceTree = "<group>";
+		};
 		63D9F202213953E700042173 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -945,6 +1056,7 @@
 				656307A31ED6C41B000CB387 /* AppDelegate.m */,
 				659455BD1EE7A52D00C94BF5 /* HHRootViewController.h */,
 				659455BE1EE7A52D00C94BF5 /* HHRootViewController.m */,
+				63D824022145FAEA0062E07C /* DesignPattern */,
 				63D823F8214223AB0062E07C /* Transition */,
 				63D823EA214107020062E07C /* JKWKWebViewHandler */,
 				63E5A07B211D76DF0064B016 /* Category+Extension */,
@@ -1289,6 +1401,7 @@
 				6308CE2F207B6B06000FE74D /* RSA.m in Sources */,
 				6308CE2C207B6B06000FE74D /* CocoaSecurity.m in Sources */,
 				659455701EE538F900C94BF5 /* NSData+HHZip.m in Sources */,
+				63D82415214614760062E07C /* DecoratorExample.m in Sources */,
 				63D39A6420BFDA000074AB98 /* HHTableViewCell.m in Sources */,
 				6308CE84207DB522000FE74D /* NewEditionTestManager.m in Sources */,
 				63755F732111818900458B35 /* NSURL+HOOK.m in Sources */,
@@ -1305,10 +1418,12 @@
 				6308CE6B207C69DD000FE74D /* UUID.m in Sources */,
 				63755F62211154E400458B35 /* RunTimeViewController.m in Sources */,
 				6308CE7C207DA827000FE74D /* FengYunConfig.m in Sources */,
+				63D8241821463E690062E07C /* ZRPerson.m in Sources */,
 				6308CEAB207EF1D2000FE74D /* ViewController2.m in Sources */,
 				6389C8CA2139520E00CDCDE5 /* HHCharge.m in Sources */,
 				63D39A7B20BFEDE70074AB98 /* CLSectionHeaderViewModel.m in Sources */,
 				6308CE72207CA4D7000FE74D /* HHProgressHUD.m in Sources */,
+				63D82412214613A30062E07C /* DesignPatternViewController.m in Sources */,
 				63D39A7520BFEC5E0074AB98 /* CLCollectionCellViewModel.m in Sources */,
 				63D39A7820BFEC970074AB98 /* CLHeaderViewModel.m in Sources */,
 				63755F682111551500458B35 /* RunLoopViewController.m in Sources */,
@@ -1320,8 +1435,11 @@
 				6308CE96207DDC36000FE74D /* AppDelegate+Location.m in Sources */,
 				63D9F20E213955A500042173 /* HHWKWebViewController.m in Sources */,
 				6389C8CC2139520E00CDCDE5 /* HHUnionPay.m in Sources */,
+				63D8241B21464CE90062E07C /* AdapterExample.m in Sources */,
 				6308CE64207C629A000FE74D /* SAMKeychainQuery.m in Sources */,
 				6594562C1EE92C0500C94BF5 /* UIScreen+HHUtilities.m in Sources */,
+				63D82422214668320062E07C /* FactoryExample.m in Sources */,
+				63D8241F21464DA70062E07C /* MementoExample.m in Sources */,
 				659455B91EE79DA100C94BF5 /* HHNetworkHelper.m in Sources */,
 				63D823FB214225C60062E07C /* HHTAViewController.m in Sources */,
 				6308CE9F207DEFDB000FE74D /* AppDelegate+UMPush.m in Sources */,
@@ -1331,7 +1449,9 @@
 				63755F652111550500458B35 /* GCDViewController.m in Sources */,
 				659455BF1EE7A52D00C94BF5 /* HHRootViewController.m in Sources */,
 				6335D52C2109570800A6B0D4 /* BlockExampleViewController.m in Sources */,
+				63D8240F2146061E0062E07C /* OberverExample.m in Sources */,
 				6308CEA8207EF1C8000FE74D /* ViewController1.m in Sources */,
+				63D8240C214604190062E07C /* SingletonExample.m in Sources */,
 				63D9F25F213FA54900042173 /* PorxyViewController.m in Sources */,
 				63D39A3720BBD2E00074AB98 /* UITextField+TextSeparater.m in Sources */,
 				656307AF1ED6C41B000CB387 /* AppDelegate.m in Sources */,

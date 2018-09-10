@@ -8,10 +8,12 @@
 
 #import "HHRootViewController.h"
 #import "ViewController1.h"
+#import "DesignPatternViewController.h"
 
 @interface HHRootViewController ()
 @property (nonatomic, strong) NSMutableArray *titles;
 @property (nonatomic, strong) NSMutableArray *classNames;
+
 @end
 
 @implementation HHRootViewController
@@ -33,9 +35,11 @@
     [self addCell:@"NSPorxy Example" class:@"PorxyViewController"];
     [self addCell:@"KVO Example" class:@"KVOViewController"];
     [self addCell:@"Category Extension Example" class:@"CategoryExtensionViewController"];
+    [self addCell:@"Design Pattern Example" class:@"DesignPatternViewController"];
+    
     [self.tableView reloadData];
+    
 }
-
 
 
 - (void)addCell:(NSString *)title class:(NSString *)className {
