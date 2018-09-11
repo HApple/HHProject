@@ -14,16 +14,22 @@
     self = [super init];
     if (self) {
         
-       //简单工厂方法
-       SFProduct *spP1 =  [SFProductFactory createProductWithClass:SFProductOne.class];
-       NSLog(@"%@",spP1);
+        //简单工厂方法
+        SFProduct *spP1 =  [SFProductFactory createProductWithClass:SFProductOne.class];
+        NSLog(@"%@",spP1);
+
+        //工厂方法
+        FMProduct *fmp1 = [FMProductOneFacotry createProduct];
+        NSLog(@"%@",fmp1);
+
+        FMProduct *fmp2 = [FMProductTwoFactory createProduct];
+        NSLog(@"%@",fmp2);
         
-       //工厂方法
-       FMProduct *fmp1 = [FMProductOneFacotry createProduct];
-       NSLog(@"%@",fmp1);
-       
-       FMProduct *fmp2 = [FMProductTwoFactory createProduct];
-       NSLog(@"%@",fmp2);
+        
+        //抽象工厂
+        BrandingFactory *factory = [ToyotaBrandingFactory factory];
+        Hatchback *hactchback = [factory createHatchback];
+        NSLog(@"%@", hactchback);
     }
     return self;
 }
@@ -129,3 +135,80 @@
     return [[FMProductTwo alloc] init];
 }
 @end
+
+
+
+#pragma mark - 抽象工厂模式
+//抽象工厂
+@implementation BrandingFactory
+
++ (BrandingFactory *)factory{
+    if ([[self class] isSubclassOfClass:[ToyotaBrandingFactory class]]) {
+        return [[ToyotaBrandingFactory alloc] init];
+    }else if([[self class] isSubclassOfClass:[FordBrandingFactory class]]){
+        return [[FordBrandingFactory alloc] init];
+    }else{
+        return nil;
+    }
+}
+
+- (Hatchback *)createHatchback{
+    return nil;
+}
+
+- (SUV*)createSUV{
+    return nil;
+}
+
+@end
+
+
+//具体工厂
+@implementation FordBrandingFactory
+-(Hatchback *)createHatchback{
+    FordHatchback *hatchback = [[FordHatchback alloc] init];
+    return hatchback;
+}
+
+-(SUV *)createSUV{
+    FordSUV *suv = [[FordSUV alloc] init];
+    return suv;
+}
+
+@end
+
+
+@implementation ToyotaBrandingFactory
+-(Hatchback *)createHatchback{
+    ToyotaHatchback *hatchback = [[ToyotaHatchback alloc] init];
+    return hatchback;
+}
+
+-(SUV *)createSUV{
+    ToyotaSUV *suv = [[ToyotaSUV alloc] init];
+    return suv;
+}
+@end
+
+
+//抽象产品
+@implementation Hatchback
+@end
+
+@implementation SUV
+@end
+
+//具体产品
+@implementation FordHatchback
+@end
+
+@implementation ToyotaHatchback
+@end
+
+@implementation FordSUV
+@end
+
+@implementation ToyotaSUV
+@end
+
+

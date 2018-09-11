@@ -88,6 +88,8 @@
 		63D8241B21464CE90062E07C /* AdapterExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8241A21464CE90062E07C /* AdapterExample.m */; };
 		63D8241F21464DA70062E07C /* MementoExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8241E21464DA70062E07C /* MementoExample.m */; };
 		63D82422214668320062E07C /* FactoryExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D82421214668320062E07C /* FactoryExample.m */; };
+		63D824252147661A0062E07C /* BuilderExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D824242147661A0062E07C /* BuilderExample.m */; };
+		63D8242821479A720062E07C /* PrototypeExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8242721479A720062E07C /* PrototypeExample.m */; };
 		63D9F2052139542000042173 /* UIViewController+LeftBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F2042139542000042173 /* UIViewController+LeftBarButtonItem.m */; };
 		63D9F208213954AC00042173 /* HHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F207213954AC00042173 /* HHNavigationViewController.m */; };
 		63D9F20E213955A500042173 /* HHWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9F20D213955A500042173 /* HHWKWebViewController.m */; };
@@ -321,6 +323,10 @@
 		63D8241E21464DA70062E07C /* MementoExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoExample.m; sourceTree = "<group>"; };
 		63D82420214668320062E07C /* FactoryExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryExample.h; sourceTree = "<group>"; };
 		63D82421214668320062E07C /* FactoryExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryExample.m; sourceTree = "<group>"; };
+		63D824232147661A0062E07C /* BuilderExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderExample.h; sourceTree = "<group>"; };
+		63D824242147661A0062E07C /* BuilderExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderExample.m; sourceTree = "<group>"; };
+		63D8242621479A720062E07C /* PrototypeExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeExample.h; sourceTree = "<group>"; };
+		63D8242721479A720062E07C /* PrototypeExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeExample.m; sourceTree = "<group>"; };
 		63D9F2032139541F00042173 /* UIViewController+LeftBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LeftBarButtonItem.h"; sourceTree = "<group>"; };
 		63D9F2042139542000042173 /* UIViewController+LeftBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LeftBarButtonItem.m"; sourceTree = "<group>"; };
 		63D9F206213954AC00042173 /* HHNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHNavigationViewController.h; sourceTree = "<group>"; };
@@ -908,12 +914,12 @@
 				63D82410214613A30062E07C /* DesignPatternViewController.h */,
 				63D82411214613A30062E07C /* DesignPatternViewController.m */,
 				63D8241C21464D8A0062E07C /* 备忘录模式(Memento) */,
-				63D82405214601850062E07C /* 单例(Singleton) */,
+				63D82405214601850062E07C /* 单例模式(Singleton) */,
 				63D82409214602EA0062E07C /* 观察者模式(Observer) */,
 				63D82408214602360062E07C /* 装饰模式(Decorator) */,
-				63D824072146019E0062E07C /* 生成器(Builder) */,
-				63D824062146018B0062E07C /* 原型(Prototype) */,
-				63D824042146017F0062E07C /* 适配器(Adapter) */,
+				63D824072146019E0062E07C /* 生成器模式(Builder) */,
+				63D824062146018B0062E07C /* 原型模式(Prototype) */,
+				63D824042146017F0062E07C /* 适配器模式(Adapter) */,
 				63D824032146016F0062E07C /* 工厂模式(Factory) */,
 			);
 			path = DesignPattern;
@@ -928,36 +934,40 @@
 			path = "工厂模式(Factory)";
 			sourceTree = "<group>";
 		};
-		63D824042146017F0062E07C /* 适配器(Adapter) */ = {
+		63D824042146017F0062E07C /* 适配器模式(Adapter) */ = {
 			isa = PBXGroup;
 			children = (
 				63D8241921464CE90062E07C /* AdapterExample.h */,
 				63D8241A21464CE90062E07C /* AdapterExample.m */,
 			);
-			path = "适配器(Adapter)";
+			path = "适配器模式(Adapter)";
 			sourceTree = "<group>";
 		};
-		63D82405214601850062E07C /* 单例(Singleton) */ = {
+		63D82405214601850062E07C /* 单例模式(Singleton) */ = {
 			isa = PBXGroup;
 			children = (
 				63D8240A214604190062E07C /* SingletonExample.h */,
 				63D8240B214604190062E07C /* SingletonExample.m */,
 			);
-			path = "单例(Singleton)";
+			path = "单例模式(Singleton)";
 			sourceTree = "<group>";
 		};
-		63D824062146018B0062E07C /* 原型(Prototype) */ = {
+		63D824062146018B0062E07C /* 原型模式(Prototype) */ = {
 			isa = PBXGroup;
 			children = (
+				63D8242621479A720062E07C /* PrototypeExample.h */,
+				63D8242721479A720062E07C /* PrototypeExample.m */,
 			);
-			path = "原型(Prototype)";
+			path = "原型模式(Prototype)";
 			sourceTree = "<group>";
 		};
-		63D824072146019E0062E07C /* 生成器(Builder) */ = {
+		63D824072146019E0062E07C /* 生成器模式(Builder) */ = {
 			isa = PBXGroup;
 			children = (
+				63D824232147661A0062E07C /* BuilderExample.h */,
+				63D824242147661A0062E07C /* BuilderExample.m */,
 			);
-			path = "生成器(Builder)";
+			path = "生成器模式(Builder)";
 			sourceTree = "<group>";
 		};
 		63D82408214602360062E07C /* 装饰模式(Decorator) */ = {
@@ -1414,6 +1424,7 @@
 				63D39A6A20BFDAFD0074AB98 /* HHCollectionViewCell.m in Sources */,
 				63D9F256213F84ED00042173 /* HHBookProvider.m in Sources */,
 				659455791EE5405400C94BF5 /* NSString+HHRegular.m in Sources */,
+				63D824252147661A0062E07C /* BuilderExample.m in Sources */,
 				6308CE6C207C69DD000FE74D /* KeyChainStore.m in Sources */,
 				6308CE6B207C69DD000FE74D /* UUID.m in Sources */,
 				63755F62211154E400458B35 /* RunTimeViewController.m in Sources */,
@@ -1489,6 +1500,7 @@
 				6308CE2B207B6B06000FE74D /* Base64.m in Sources */,
 				63D9F208213954AC00042173 /* HHNavigationViewController.m in Sources */,
 				63755F7A2111874C00458B35 /* Dog.m in Sources */,
+				63D8242821479A720062E07C /* PrototypeExample.m in Sources */,
 				659455CA1EE7A67900C94BF5 /* HTTPRequest.m in Sources */,
 				6389C8CB2139520E00CDCDE5 /* HHPayEngine.m in Sources */,
 			);

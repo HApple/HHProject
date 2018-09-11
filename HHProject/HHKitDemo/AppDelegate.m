@@ -9,39 +9,6 @@
 #import "AppDelegate.h"
 #import "HHRootViewController.h"
 
-
-//Charger.h 普通充电器
-@interface Charger : NSObject
-- (void)charge;//普通充电
-@end
-
-//Charger.m
-@implementation Charger
-- (void)charge {
-    NSLog(@"充电中");
-}
-@end
-
-//LightningChargerAdapterProtocol.h 适配接口
-@protocol LightningChargerAdapterProtocol <NSObject>
-@required
-- (void)chargeWithLightning;//声明适配方法
-@end
-
-//LightningChargerAdapter.h  适配器，继承Charger，实现LightningChargerAdapterProtocol
-@interface LightningChargerAdapter : Charger <LightningChargerAdapterProtocol>
-@end
-
-//LightningChargerAdapter.m
-@implementation LightningChargerAdapter
-- (void)chargeWithLightning {
-    NSLog(@"使用Lightning");
-    [super charge];//调用父类的充电方法
-}
-@end
-
-
-
 @interface AppDelegate ()
 
 @end
@@ -50,13 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    
-    
-    
-    //客户端调用
-    LightningChargerAdapter *charger = [[LightningChargerAdapter alloc] init];
-    [charger chargeWithLightning];
-    
     
     HHRootViewController *root = [HHRootViewController new];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:root];

@@ -108,14 +108,74 @@ typedef NS_ENUM(NSInteger,SFProductType) {
 /**
  抽象工厂模式
  提供了创建一系列相关抽象子类的接口，而无需指定它们具体的类型。也叫做Kit模式。
-   
  
+ 抽象工厂模式和工厂方法模式很相似，但是抽象工厂模式将抽象发挥的更加极致，是三种
+ 工厂模式中最抽象的一种设计模式。
  
+ 抽象工厂模式中定义了抽象工厂类，抽象工厂类中定义了每个系列的抽象子类创建所需的方法，
+ 这些方法对应着不同类型的抽象子类实例化过程。每个工厂子类都对应着一个系列，工厂
+ 子类通过重写这些方法来实例化当前系列的抽象子类。
+ 
+ 抽象工厂模式与工厂方法模式
+ 两者都用于相同的目的：创建对象而不让客户端知道返回了什么确切的具体对象。
+ 
+ 在工厂方法模式中，工厂子类负责抽象子类的实例化，每个工厂子类对应着一个抽象子类，且具有唯一性。
+ 而在抽象工厂模式中，一个工厂子类代表一个系列，工厂子类根据当前系列对不同类型的抽象子类进行创建。
+ 工厂方法模式中工厂子类对应的是一个类型的抽象子类，抽象工厂模式对应的是一个系列的抽象子类。
+ 
+ 工厂方法模式是针对单个类型的抽象类。
+ 工厂模式是针对具有相同结构的一系列类型的抽象类。
+ 
+ 主要参与者：
+ 抽象工厂(AbstractFactory)角色：担任这个角色的是工厂方法模式的核心，它是与应用系统商业逻辑无关的。
+ 
+ 具体工厂(ConcreteFactory)角色：这个角色直接在客户端的调用下创建产品的实例。这个角色含有选择合适的
+ 产品对象的逻辑，而这个逻辑是与应用系统的商业逻辑紧密相关的。
+ 
+ 抽象产品(AbstractProduct)角色：担任这个角色的类是工厂方法模式所创建的对象的父类，或它们共同拥有的接口。
+ 
+ 具体产品(ConcreteProduct)角色:抽象工厂模式所创建的任何产品对象都是某一个具体产品类的实例。这是客户端最终
+ 需要的东西，其内部一定充满了应用系统的商业逻辑。
  
  */
 
 
+//抽象工厂
+@class Hatchback;
+@class SUV;
+@interface BrandingFactory : NSObject
++ (BrandingFactory *)factory;
+- (Hatchback *)createHatchback;
+- (SUV*)createSUV;
+@end
 
 
+//具体工厂
+@interface FordBrandingFactory : BrandingFactory
+@end
 
+
+@interface ToyotaBrandingFactory : BrandingFactory
+@end
+
+
+//抽象产品
+@interface Hatchback : NSObject
+@end
+
+@interface SUV: NSObject
+@end
+
+//具体产品
+@interface FordHatchback : Hatchback
+@end
+
+@interface ToyotaHatchback : Hatchback
+@end
+
+@interface FordSUV : SUV
+@end
+
+@interface ToyotaSUV : SUV
+@end
 
